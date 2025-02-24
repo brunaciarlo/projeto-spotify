@@ -35,9 +35,11 @@ Esse projeto serviu de estudo para praticar desenvolvimento web full-stack com o
 
 <h1 id="ingles" align="center" style="font-weight: bold;">🎧♬ Project Spotify ◁ ❚❚ ▷</h1>
 
+![REACT_BADGE]
+![JAVASCRIPT_BADGE]
 ![HTML_BADGE]
 ![CSS_BADGE]
-![JAVASCRIPT_BADGE]
+![RENDER_BADGE]
 
 <p align="center">
   <img src="/capturas/tela_inicial.JPG" alt="Imagem tela inicial" width="400px">

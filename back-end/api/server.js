@@ -21,11 +21,11 @@ app.get('/api/songs', async(request, response) => {
     response.send(await db.collection('songs').find({}).toArray());
 })
 
-app.use(express.static(path.join(__dirname, "../../front-end/dist")));
+app.use(express.static(path.join(__dirname, "../front-end/dist")));
 
-app.get('*', async(request, response) => {
-    response.sendFile(path.join(__dirname, "../../front-end/dist/index.html"));
-})
+app.get("*", async (request, response) => {
+  response.sendFile(path.join(__dirname, "../front-end/dist/index.html"));
+});
 
 app.listen(PORT, () => {
     console.log("Servidor está escutando na porta " + PORT);
